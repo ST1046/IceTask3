@@ -11,7 +11,7 @@ package paramsandreturnmethods;
 import javax.swing.JOptionPane;
 public class ParamsAndReturnMethods {
 
-   
+   //created method
     public static double calculateTotal(double price1, double price2, double price3){
         return price1 + price2 + price3;
     }
@@ -22,6 +22,7 @@ public class ParamsAndReturnMethods {
         String input2 = JOptionPane.showInputDialog("Price of Product 2: ");
         String input3 = JOptionPane.showInputDialog("Price of Product 3: ");
         
+        //method calling 
         double price1 = Double.parseDouble(input1);
         double price2 = Double.parseDouble(input2);
         double price3 = Double.parseDouble(input3);
